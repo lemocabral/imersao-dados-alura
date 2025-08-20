@@ -12,8 +12,7 @@ st.set_page_config(
 
 # --- Carregamento dos dados ---
 #df = pd.read_csv("https://raw.githubusercontent.com/vqrca/dashboard_salarios_dados/refs/heads/main/dados-imersao-final.csv")
-df = pd.read_csv("https://github.com/lemocabral/imersao-dados-alura/blob/main/imersao-dados-alura.csv")
-
+df = pd.read.csv("https://raw.githubusercontent.com/lemocabral/imersao-dados-alura/refs/heads/main/imersao-dados-alura.csv")
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
@@ -140,3 +139,4 @@ st.subheader("Dados Detalhados")
 st.dataframe(df_filtrado)
 
      
+
